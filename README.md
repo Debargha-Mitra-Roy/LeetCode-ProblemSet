@@ -21,4 +21,4 @@ You can contibute this Repository but **you have to follow some guidelines** giv
 
 After all, Thanks to <a href = "https://leetcode.com/">***LeetCode***</a> for great this beautiful platform.
 
-Made with ❤️ & ☕ <a href = "https://leetcode.com/debarghamitraroy/">***Debargha Mitra Roy***</a>
+Made with ❤️ & ☕ by <a href = "https://leetcode.com/debarghamitraroy/">***Debargha Mitra Roy***</a>
