@@ -1,5 +1,5 @@
 /*
-    6157. Time Needed to Rearrange a Binary String :-
+    2380. Time Needed to Rearrange a Binary String :-
 
     LINK:   https://leetcode.com/problems/time-needed-to-rearrange-a-binary-string/
 */
