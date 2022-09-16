@@ -33,8 +33,8 @@ public:
         for (int i = 0; i < n; i++)
         {
             if (mp[changed[i]] == 0)
-        
                 continue;
+                
             if (mp[changed[i] * 2] == 0)
                 return {};
         
