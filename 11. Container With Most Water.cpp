@@ -15,13 +15,13 @@ public:
     int maxArea(vector<int> &height)
     {
         int left = 0, right = height.size() - 1;
-        int ans = 0, maxArea = 0, minArea = 0, width = 0;
+        int ans = 0, maximumArea = 0, minimumArea = 0, width = 0;
 
         while (left < right)
         {
             width = right - left;
-            minArea = min(height[left], height[right]);
-            maxArea = max(maxArea, (minArea * width));
+            minimumArea = min(height[left], height[right]);
+            maximumArea = max(maximumArea, (minimumArea * width));
 
             if (height[left] < height[right])
                 left++;
@@ -30,6 +30,6 @@ public:
                 right--;
         }
 
-        return maxArea;
+        return maximumArea;
     }
 };
