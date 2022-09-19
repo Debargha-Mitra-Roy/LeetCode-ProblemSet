@@ -15,7 +15,7 @@ public:
     int maxArea(vector<int> &height)
     {
         int left = 0, right = height.size() - 1;
-        int ans = 0, maximumArea = 0, minimumArea = 0, width = 0;
+        int maximumArea = 0, minimumArea = 0, width = 0;
 
         while (left < right)
         {
