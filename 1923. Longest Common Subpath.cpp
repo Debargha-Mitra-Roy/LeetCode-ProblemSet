@@ -1,7 +1,7 @@
 /*
     1923. long long intest Common Subpath :-
 
-    LINK:   https://leetcode.com/problems/long long intest-common-subpath/
+    LINK:   https://leetcode.com/problems/longest-common-subpath/
 */
 
 #include <iostream>
