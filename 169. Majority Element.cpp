@@ -6,7 +6,7 @@
 
 #include <iostream>
 #include <vector>
-#include <map>
+#include <unordered_map>
 using namespace std;
 
 class Solution
@@ -14,7 +14,7 @@ class Solution
 public:
     int majorityElement(vector<int> &nums)
     {
-        map<int, int> mpp;
+        unordered_map<int, int> mpp;
 
         for (int i = 0; i < nums.size(); i++)
         {
