@@ -16,14 +16,14 @@ public:
         int left = 0, right = height.size() - 1;
         int ans = 0, maxBlock = 0, minBlock = 0;
 
-        while(left <= right)
+        while (left <= right)
         {
             minBlock = min(height[left], height[right]);
             maxBlock = max(maxBlock, minBlock);
 
             ans = ans + maxBlock - minBlock;
 
-            if(height[left] < height[right])
+            if (height[left] < height[right])
                 left++;
 
             else

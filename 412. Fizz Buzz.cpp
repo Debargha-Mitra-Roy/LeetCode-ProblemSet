@@ -20,15 +20,15 @@ public:
             bool divisibleBy3 = i % 3;
             bool divisibleBy5 = i % 5;
 
-            // if divisible by both 3 & 5
+            // If divisible by both 3 & 5
             if (!divisibleBy3 && !divisibleBy5)
                 ans.push_back("FizzBuzz");
 
-            // if divisible by 3
+            // If divisible by 3
             else if (!divisibleBy3)
                 ans.push_back("Fizz");
 
-            // if divisible by 5
+            // If divisible by 5
             else if (!divisibleBy5)
                 ans.push_back("Buzz");
 
